@@ -35,7 +35,7 @@ export const NavBar = () => {
         <Router>
             <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
                 <Container>
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand href="/JCMPortfolio">
                         {/*<img src={logo2} alt="Logo" />*/}
                         <div className="logo">
                             <span className="letter j">J</span>
