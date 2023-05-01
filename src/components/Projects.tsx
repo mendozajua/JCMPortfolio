@@ -4,7 +4,7 @@ import zuzu from "../assets/img/ZuzuTongueOut.jpg";
 import mufasa from "../assets/img/Mufasa_cattower.jpg";
 import medusa from "../assets/img/Medusa_HangingOut.jpg";
 import kratos from "../assets/img/Kratos_peri_zoomedOut.jpg";
-import nagini from "../assets/img/CuriousNagini.jpg";
+import nagini from "../assets/img/Nagini_Long.jpg";
 import {Col, Container, Nav,Tab, Row} from "react-bootstrap";
 import projectCard from "./ProjectCard";
 import ProjectCard from "./ProjectCard";
@@ -20,7 +20,7 @@ function Projects() {
     const projects = [
         {
             title: "Mufasa",
-            description: "Named after a character from Lion King, a favorite film from my childhood. Very well behaved cat with some mischief here and there. But overall very kind/sweet and energetic.",
+            description: "My first pet is this incredibly friendly cat named after a character from Lion King, a favorite film from my childhood.",
             imgUrl: mufasa,
         },
         {
@@ -30,22 +30,22 @@ function Projects() {
         },
         {
             title: "Nagini",
-            description: "Red Fancy corn snake. I have no idea what sex is, but was named after a character from Harry Potter. I got Nagini when he/she was about 3-4 months old. Enjoys to watch what goes on in the room form his/her \"hides\".",
+            description: "Meet Nagini, my Red Fancy corn snake who was named after a Harry Potter character. Although I'm uncertain of their sex, Nagini enjoys watching what's happening in the room from the comfort of their hiding spot.",
             imgUrl: nagini,
         },
         {
             title: "Kratos",
-            description: "Kratos is a male Enchi Hypo ball python, I got him when he was about 6-8 months old. He is the olds snake I own and his size definitely says it.",
+            description: "Kratos is a male Enchi Hypo ball python, named after the favorite video game character, God of War. He is the oldest snake I own, and his impressive size reflects his age.",
             imgUrl: kratos,
         },
         {
             title: "Medusa",
-            description: "Medusa is a Blue Eye Leucistic (BEL) female ball python. I got Medusa when she was about 1 month old, so pretty much a baby. Again she has come quite a long way and is my most handlable snake.",
+            description: "Meet Medusa, my Blue Eye Leucistic (BEL) female ball python. I got her as a young hatchling at just one month old. Over time, she has grown to become my most docile and easily-handled snake, making her a true joy to have in my collection",
             imgUrl: medusa,
         },
         {
             title: "Godzilla",
-            description: "My last pet is a normal leopard gecko, I have no idea when his/her sex is. But this little buddy loves to interact. Esspecially during feeding time will likes to come out of his/her encolsure.",
+            description: "Meet Godzilla, my friendly normal leopard gecko. Their sex is unknown, but their love for interaction is undeniable. During feeding time, Godzilla eagerly comes to the door of their enclosure and doesn't hesitate to crawl onto my hand when offered.",
             imgUrl: godzilla,
         },
     ]
