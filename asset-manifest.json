@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/JCMPortfolio/static/css/main.7a243ddc.css",
-    "main.js": "/JCMPortfolio/static/js/main.f4aa2912.js",
+    "main.js": "/JCMPortfolio/static/js/main.0f4b33a8.js",
     "static/js/787.301628f9.chunk.js": "/JCMPortfolio/static/js/787.301628f9.chunk.js",
     "static/media/Mufasa_cattower.jpg": "/JCMPortfolio/static/media/Mufasa_cattower.4feba55af22327d15743.jpg",
     "static/media/GodzillaSleep.jpg": "/JCMPortfolio/static/media/GodzillaSleep.85a67b9cbb3e10d9bf70.jpg",
-    "static/media/CuriousNagini.jpg": "/JCMPortfolio/static/media/CuriousNagini.c32a3e4b5b71946f4622.jpg",
     "static/media/ZuzuTongueOut.jpg": "/JCMPortfolio/static/media/ZuzuTongueOut.79e2b243e3e4fedded97.jpg",
+    "static/media/Nagini_Long.jpg": "/JCMPortfolio/static/media/Nagini_Long.c51a3c3b10b7d3e2af4a.jpg",
     "static/media/Medusa_HangingOut.jpg": "/JCMPortfolio/static/media/Medusa_HangingOut.f2b3de91c2fb00eb302a.jpg",
     "static/media/Kratos_peri_zoomedOut.jpg": "/JCMPortfolio/static/media/Kratos_peri_zoomedOut.5598a382e686327cfac9.jpg",
     "static/media/color-sharp.png": "/JCMPortfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -20,11 +20,11 @@
     "index.html": "/JCMPortfolio/index.html",
     "static/media/nav-icon1.svg": "/JCMPortfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.7a243ddc.css.map": "/JCMPortfolio/static/css/main.7a243ddc.css.map",
-    "main.f4aa2912.js.map": "/JCMPortfolio/static/js/main.f4aa2912.js.map",
+    "main.0f4b33a8.js.map": "/JCMPortfolio/static/js/main.0f4b33a8.js.map",
     "787.301628f9.chunk.js.map": "/JCMPortfolio/static/js/787.301628f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a243ddc.css",
-    "static/js/main.f4aa2912.js"
+    "static/js/main.0f4b33a8.js"
   ]
 }
