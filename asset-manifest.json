@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/JCMPortfolio/static/css/main.7a243ddc.css",
+    "main.css": "/JCMPortfolio/static/css/main.25b4a5a7.css",
     "main.js": "/JCMPortfolio/static/js/main.0f4b33a8.js",
     "static/js/787.301628f9.chunk.js": "/JCMPortfolio/static/js/787.301628f9.chunk.js",
     "static/media/Mufasa_cattower.jpg": "/JCMPortfolio/static/media/Mufasa_cattower.4feba55af22327d15743.jpg",
@@ -19,12 +19,12 @@
     "static/media/minimalist-nautre.jpg": "/JCMPortfolio/static/media/minimalist-nautre.c4452afaf76d210d6ac1.jpg",
     "index.html": "/JCMPortfolio/index.html",
     "static/media/nav-icon1.svg": "/JCMPortfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.7a243ddc.css.map": "/JCMPortfolio/static/css/main.7a243ddc.css.map",
+    "main.25b4a5a7.css.map": "/JCMPortfolio/static/css/main.25b4a5a7.css.map",
     "main.0f4b33a8.js.map": "/JCMPortfolio/static/js/main.0f4b33a8.js.map",
     "787.301628f9.chunk.js.map": "/JCMPortfolio/static/js/787.301628f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a243ddc.css",
+    "static/css/main.25b4a5a7.css",
     "static/js/main.0f4b33a8.js"
   ]
 }
