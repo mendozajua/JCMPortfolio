@@ -21,6 +21,10 @@
      width: 100%;
      height: auto;
    }
+   .logo {
+     position: absolute;
+     /* adjust the value as needed */
+   }
  }
 
 /************ Default Css ************/
