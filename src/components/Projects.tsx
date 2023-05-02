@@ -6,16 +6,15 @@ import medusa from "../assets/img/Medusa_HangingOut.jpg";
 import kratos from "../assets/img/Kratos_peri_zoomedOut.jpg";
 import nagini from "../assets/img/Nagini_Long.jpg";
 import {Col, Container, Nav,Tab, Row} from "react-bootstrap";
-import projectCard from "./ProjectCard";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png"
-import reptileSpace from "../assets/img/reptile-space_preview_rev_1.png"
 import 'animate.css'
 import TrackVisibility from 'react-on-screen';
 import colorSharp from "../assets/img/color-sharp.png";
-import { Document, Page, pdfjs,  } from "react-pdf";
-
+import resume from "../assets/img/Software_Engineer_Resume_JME-1.png"
+import { Document, Page, pdfjs} from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 function Projects() {
     const projects = [
         {
@@ -75,11 +74,6 @@ function Projects() {
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">Resume</Nav.Link>
                                 </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="third">
-                                        Personal Projects
-                                    </Nav.Link>
-                                </Nav.Item>
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
@@ -99,27 +93,31 @@ function Projects() {
                                             <Container>
                                                 <Row>
                                                     <Col >
-                                                        <div className="skill-bx" style={{
+                                                        <div className="skill-bx"
+                                                             style={{
                                                             width: '100%',
                                                             height:"calc(100% - 20px)", // subtracted 20px from the height
                                                             overflow:"hidden",
                                                             backgroundColor: 'white',
-                                                            marginTop: 10
-                                                        }}>
-                                                            <h2>
+                                                            marginTop: 10,
+                                                        }}
+                                                        >
+                                                            <h2 style={{color:"black"}}>
                                                                 Resume
                                                             </h2>
-                                                            <div className="align-items-center2" >
-                                                                <Document
-                                                                    file={path}
-                                                                    onLoadError={console.error}
-                                                                >
-                                                                    <Page
-                                                                        pageNumber={1}
-                                                                        width={Math.min(width * 0.9, 800)}
-                                                                        renderTextLayer={false}
-                                                                        renderAnnotationLayer={false}/>
-                                                                </Document>
+                                                            <div className="align-items-center2">
+                                                                <img src={resume} />
+                                                                {/*<Document*/}
+                                                                {/*    file={path}*/}
+                                                                {/*    onLoadError={console.error}*/}
+                                                                {/*>*/}
+                                                                {/*    <Page*/}
+                                                                {/*        pageNumber={1}*/}
+                                                                {/*        // width={Math.min(width * 0.9, 800)}*/}
+                                                                {/*        // renderTextLayer={false}*/}
+                                                                {/*        // renderAnnotationLayer={false}*/}
+                                                                {/*    />*/}
+                                                                {/*</Document>*/}
                                                             </div>
                                                         </div>
                                                     </Col>
@@ -129,7 +127,6 @@ function Projects() {
                                         </section>
                                     </Row>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="third">Loren Ipsum</Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
                     </Col>
