@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JCMPortfolio/static/css/main.25b4a5a7.css",
-    "main.js": "/JCMPortfolio/static/js/main.42c41b57.js",
+    "main.css": "/JCMPortfolio/static/css/main.8ee23430.css",
+    "main.js": "/JCMPortfolio/static/js/main.fefe102e.js",
     "static/js/787.301628f9.chunk.js": "/JCMPortfolio/static/js/787.301628f9.chunk.js",
     "static/media/Mufasa_cattower.jpg": "/JCMPortfolio/static/media/Mufasa_cattower.4feba55af22327d15743.jpg",
     "static/media/GodzillaSleep.jpg": "/JCMPortfolio/static/media/GodzillaSleep.85a67b9cbb3e10d9bf70.jpg",
@@ -11,6 +11,7 @@
     "static/media/Kratos_peri_zoomedOut.jpg": "/JCMPortfolio/static/media/Kratos_peri_zoomedOut.5598a382e686327cfac9.jpg",
     "static/media/color-sharp.png": "/JCMPortfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/JCMPortfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/Software_Engineer_Resume_JME-1.png": "/JCMPortfolio/static/media/Software_Engineer_Resume_JME-1.c57be16b25699c0cdda2.png",
     "static/media/CentraNo2-Bold.ttf": "/JCMPortfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/JCMPortfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/JCMPortfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -19,12 +20,12 @@
     "static/media/minimalist-nautre.jpg": "/JCMPortfolio/static/media/minimalist-nautre.c4452afaf76d210d6ac1.jpg",
     "index.html": "/JCMPortfolio/index.html",
     "static/media/nav-icon1.svg": "/JCMPortfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.25b4a5a7.css.map": "/JCMPortfolio/static/css/main.25b4a5a7.css.map",
-    "main.42c41b57.js.map": "/JCMPortfolio/static/js/main.42c41b57.js.map",
+    "main.8ee23430.css.map": "/JCMPortfolio/static/css/main.8ee23430.css.map",
+    "main.fefe102e.js.map": "/JCMPortfolio/static/js/main.fefe102e.js.map",
     "787.301628f9.chunk.js.map": "/JCMPortfolio/static/js/787.301628f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25b4a5a7.css",
-    "static/js/main.42c41b57.js"
+    "static/css/main.8ee23430.css",
+    "static/js/main.fefe102e.js"
   ]
 }
