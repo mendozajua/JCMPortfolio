@@ -349,18 +349,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 
- .align-items-center2 {
-   justify-content: center;
-   align-items: center;
-   width: 100% ;
 
- }
-
- .react-pdf__Page__canvas {
-   margin: 0 auto;
-   width: 80% !important;
-   height: 100% !important;
- }
 
 .skill-bx {
   background: #151515;
@@ -398,6 +387,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Projects Css ************/
+ .align-items-center2 {
+   justify-content: center;
+   align-items: center;
+   width: 100% ;
+
+ }
+
+ .react-pdf__Page__canvas {
+   margin: 0 auto;
+   width: 80% !important;
+   height: 100% !important;
+ }
+
 .about {
   padding: 80px 0;
   position: relative;
@@ -424,8 +426,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
+/*when you add more tabs must divid herre accordinly. example when 2 need 50%, if 3 then 33.33%*/
 .about .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%;
 }
 .about .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -463,8 +466,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 55px 0px 0px 55px;
 }
 .nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  /*border-top: 1px solid rgba(255, 255, 255, 0.5);*/
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.5);*/
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
 }
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
