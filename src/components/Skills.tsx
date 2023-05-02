@@ -6,9 +6,7 @@ import meter1 from "../assets/img/meter1.svg"
 import meter2 from "../assets/img/meter2.svg"
 import meter3 from "../assets/img/meter3.svg"
 import colorSharp from "../assets/img/color-sharp.png"
-import { Document, Page, pdfjs,  } from "react-pdf";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 
@@ -16,8 +14,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
 function Skills() {
-
-    const path = './Software_Engineer_Resume_JM.pdf'
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
@@ -55,17 +51,6 @@ function Skills() {
                             <h2>
                                 Resume
                             </h2>
-                            <div className="align-items-center2" >
-                                <Document
-                                    file={path}
-                                    onLoadError={console.error}
-                                >
-                                    <Page
-                                        pageNumber={1}
-                                        width={Math.min(width * 0.9, 800)}
-                                        renderTextLayer={false}/>
-                                </Document>
-                            </div>
                         </div>
                     </Col>
                 </Row>
