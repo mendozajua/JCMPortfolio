@@ -24,7 +24,7 @@ function Projects() {
         },
         {
             title: "ZuZu",
-            description: "Adopted recently this sweet cat, so Mufasa could have someone to play with. She loves voicing her opinion and loves pets just as much as the next. Update: She loves pets so much she intercepts pets.",
+            description: "Got a new cat for Mufasa to play with. This sweet kitty loves attention and voicing her opinions. She's so fond of pets that she interrupts them too.",
             imgUrl: zuzu,
         },
         {
